@@ -1,0 +1,9 @@
+# Optional: tell Netlify to serve index.html by default
+[build]
+  publish = "."
+
+# Optional redirects (handy for client-side routing; not strictly needed here)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
